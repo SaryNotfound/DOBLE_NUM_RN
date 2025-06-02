@@ -1,0 +1,28 @@
+"""
+red_neuronal_simple.py
+---------------------
+
+Este script implementa una red neuronal de una sola neurona (regresión lineal) para aprender la función y = 2x.
+
+Flujo del programa:
+1. Solicita al usuario un número para predecir su doble.
+2. Entrena la red con datos del 1 al 20.
+3. Ajusta los parámetros (peso y sesgo) usando descenso de gradiente.
+4. Realiza autocorrección si la predicción inicial no es exacta.
+5. Muestra la predicción y la curva de error del entrenamiento.
+
+Parámetros principales:
+- tasa_aprendizaje: velocidad de ajuste de los parámetros.
+- max_epochs: número máximo de ciclos de entrenamiento.
+- limite_error: margen de error permitido para la autocorrección.
+
+Dependencias:
+- numpy
+- matplotlib
+
+Uso:
+$ python ejemplo.py
+
+Autor: Sara Margarita Sierra Oliveros y Jorge Junior Solano Romero
+
+"""
